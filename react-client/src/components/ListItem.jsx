@@ -1,9 +1,11 @@
 import React from 'react';
 
+
+
 const ListItem = (props) => (
-  <div>
-    { props.item.description }
-  </div>
+  <span id={props.id}>
+    { props.resort.name }
+  </span>
 )
 
 export default ListItem;
